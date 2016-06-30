@@ -16,9 +16,13 @@ class QoutesController < ApplicationController
     redirect_to root_path
   end
 
+  def about
+  end
+
   private
 
   def qoute_params
     params.require(:qoute).permit(:saying, :author)
   end
+
 end

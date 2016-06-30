@@ -57,4 +57,6 @@ Rails.application.routes.draw do
 
   resources :qoutes
 
+  get 'about', to: "qoutes#about"
+
 end
