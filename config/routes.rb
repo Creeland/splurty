@@ -55,4 +55,6 @@ Rails.application.routes.draw do
   #   end
   root 'qoutes#index'
 
+  resources :qoutes
+
 end
