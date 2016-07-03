@@ -1,6 +1,6 @@
-class CreateQoutes < ActiveRecord::Migration
+class CreateQuotes < ActiveRecord::Migration
   def change
-    create_table :qoutes do |t|
+    create_table :quotes do |t|
 
       t.string :saying
       t.string :author

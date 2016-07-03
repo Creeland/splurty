@@ -53,10 +53,10 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  root 'qoutes#index'
+  root 'quotes#index'
 
-  resources :qoutes
+  resources :quotes
 
-  get 'about', to: "qoutes#about"
+  get 'about', to: "quotes#about"
 
 end
