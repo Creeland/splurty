@@ -56,6 +56,14 @@ h1 {
 
 h2 {
     font-family: 'open_sanslight_italic', serif;
+    margin-bottom: 50px
+}
+
+@media (max-width: 720px) {
+    #header {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
 }
 
 .next-quote {
